@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif&family=Permanent+Marker&display=swap');
+
+
+
+.container{
+    font-family: 'PT Serif';
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.div1{
+    flex-direction: row;
+    align-items: baseline;
+    
+}
+
+.div2{
+    flex-direction: row;
+    line-height: 1px;
+    align-items: baseline;
+}
+
+.div3{
+    flex-direction: row;
+    align-items: baseline;
+}
+
+h1{
+    font-family: 'PT Serif';
+    margin-top: 0cm;
+    font-family: 'PT Serif';
+    color: snow;
+    text-align: center;
+    font-size: 40px;
+    
+    
+}
+
+.title{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+
+
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+body{
+    background-image: url(./images/back.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    
+   
+    
+
+}
+
+.body{
+    padding-top: 40px;
+    
+}
+
+button{
+    color:rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background-color: rgba(92, 92, 92,0.3) ;
+    border-color: rgb(0, 0, 0);
+    align-self: center;
+    transition: all ease-in-out 0.4s;
+    font-weight: 700;
+ }
+
+button:hover {
+ background-color: transparent;
+ color:white;
+
+ 
+}
+
+.churras{
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 31px;
+    
+
+}
+
+.p1{
+    font-size: 20px;
+    color:#fff;
+}
+
+.p2{
+    font-size: 20px;
+    color:#fff;
+
+}
+
+.p3{
+    font-size: 20px;
+    color:#fff;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 11px;
+        
+    }
+  }
+
